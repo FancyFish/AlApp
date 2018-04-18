@@ -9,6 +9,12 @@
                 Text="Boton 1"
                 AbsoluteLayout.LayoutBounds="100,150"
             ></Button>
+        <Button BackgroundColor="BlanchedAlmond"
+                Text="Boton 1"
+                AbsoluteLayout.LayoutBounds="100,150"
+            ></Button>
+
+
     </AbsoluteLayout>
 
 </ContentPage>
