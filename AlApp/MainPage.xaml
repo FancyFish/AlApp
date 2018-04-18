@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:AlApp"
              x:Class="AlApp.MainPage">
 
-    <AbsoluteLayout>
+    <!--<AbsoluteLayout>
         <Button BackgroundColor="BlanchedAlmond"
                 Text="Boton 1"
                 AbsoluteLayout.LayoutBounds="100,150"
@@ -15,6 +15,27 @@
             ></Button>
 
 
-    </AbsoluteLayout>
-
+    </AbsoluteLayout>-->
+    <ScrollView>
+        <StackLayout  
+                       Margin="10,20">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nombre"
+                       VerticalOptions="Center"></Label>
+                <Entry HorizontalOptions="FillAndExpand" ></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Direccion"
+                       VerticalOptions="Center"></Label>
+                <Entry HorizontalOptions="FillAndExpand" ></Entry>
+            </StackLayout>
+            <StackLayout HeightRequest="500">
+                <BoxView BackgroundColor="Orange"
+                         VerticalOptions="FillAndExpand"
+                         
+                     ></BoxView>
+            </StackLayout>
+            
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
