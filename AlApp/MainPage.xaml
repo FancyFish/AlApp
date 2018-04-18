@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AlApp"
+             x:Class="AlApp.MainPage">
+
+    <AbsoluteLayout>
+        <Button BackgroundColor="BlanchedAlmond"
+                Text="Boton 1"
+                AbsoluteLayout.LayoutBounds="100,150"
+            ></Button>
+    </AbsoluteLayout>
+
+</ContentPage>
